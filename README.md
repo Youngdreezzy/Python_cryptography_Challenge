@@ -11,7 +11,6 @@ ciphertext = ciphertext + character
 for j in range (0,key):
 ciphertext = ciphertext + random.choice(alphabet)
 return ciphertext
-Page 2 of 3 © 2022 https://www.101computing.net/cryptography-challenge/
 #Main program starts here...
 #Input...
 plaintext = input("Enter a message to encrypt (plaintext)")
